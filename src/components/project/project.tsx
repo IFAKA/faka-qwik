@@ -12,7 +12,7 @@ export default component$(({ project }: { project: IProject }) => {
           title={`${name}'s code`}
           target="_blank"
           rel="noopener noreferrer"
-          className="underline text-blue-700 visited:text-purple-700 mb-0.5 font-semibold"
+          class="underline text-blue-700 visited:text-purple-700 mb-0.5 font-semibold"
         >
           {name}
         </Link>
@@ -26,7 +26,7 @@ export default component$(({ project }: { project: IProject }) => {
             title={`${name}'s site`}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex justify-center w-full"
+            class="flex justify-center w-full"
           >
             🔗
           </Link>

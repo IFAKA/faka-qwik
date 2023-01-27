@@ -6,7 +6,7 @@ import { filterRepos } from "~/utils";
 export const getRepos = async () => {
   const data = await fetch(URL, {
     headers: {
-      Authorization: `token ${import.meta.env.VITE_ACCESS_TOKEN}`,
+      Authorization: `${import.meta.env.VITE_ACCESS_TOKEN}`,
     },
   });
   if (!data.ok) throw new Error("Oops");
